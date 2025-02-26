@@ -1,0 +1,367 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.20 of Day Month 20?? (rev: 5e1673e)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 84 and seed 4588265357186739113 with 1 worker on 8 cores with 2590MB heap and 64MB offheap memory [pid: 10862] (Linux 6.8.0-52-generic amd64, Ubuntu 11.0.26 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/ajr/Desktop/VF/Aula_03/Inc.tla
+Parsing file /tmp/tlc-13433368665456769866/Naturals.tla (jar:file:/home/ajr/.vscode/extensions/tlaplus.vscode-ide-2025.2.121552/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Semantic processing of module Naturals
+Semantic processing of module Inc
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2025-02-19 10:26:14)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2025-02-19 10:26:14.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant Termination is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ l = TRUE
+/\ x = 0
+/\ y = <<0, 0, 0, 0, 0>>
+/\ pc = <<0, 0, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <In1(1) line 20, col 5 to line 24, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 0
+/\ y = <<0, 0, 0, 0, 0>>
+/\ pc = <<1, 0, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <In2(1) line 27, col 5 to line 30, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 0
+/\ y = <<0, 0, 0, 0, 0>>
+/\ pc = <<2, 0, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <In3(1) line 33, col 5 to line 36, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 1
+/\ y = <<0, 0, 0, 0, 0>>
+/\ pc = <<3, 0, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <In4(1) line 39, col 5 to line 42, col 23 of module Inc>
+/\ l = TRUE
+/\ x = 1
+/\ y = <<0, 0, 0, 0, 0>>
+/\ pc = <<4, 0, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <In1(2) line 20, col 5 to line 24, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 1
+/\ y = <<0, 0, 0, 0, 0>>
+/\ pc = <<4, 1, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <In2(2) line 27, col 5 to line 30, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 1
+/\ y = <<0, 1, 0, 0, 0>>
+/\ pc = <<4, 2, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <In3(2) line 33, col 5 to line 36, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 2
+/\ y = <<0, 1, 0, 0, 0>>
+/\ pc = <<4, 3, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <In4(2) line 39, col 5 to line 42, col 23 of module Inc>
+/\ l = TRUE
+/\ x = 2
+/\ y = <<0, 1, 0, 0, 0>>
+/\ pc = <<4, 4, 0, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <In1(3) line 20, col 5 to line 24, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 2
+/\ y = <<0, 1, 0, 0, 0>>
+/\ pc = <<4, 4, 1, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <In2(3) line 27, col 5 to line 30, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 2
+/\ y = <<0, 1, 2, 0, 0>>
+/\ pc = <<4, 4, 2, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <In3(3) line 33, col 5 to line 36, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 3
+/\ y = <<0, 1, 2, 0, 0>>
+/\ pc = <<4, 4, 3, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+13: <In4(3) line 39, col 5 to line 42, col 23 of module Inc>
+/\ l = TRUE
+/\ x = 3
+/\ y = <<0, 1, 2, 0, 0>>
+/\ pc = <<4, 4, 4, 0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+14: <In1(4) line 20, col 5 to line 24, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 3
+/\ y = <<0, 1, 2, 0, 0>>
+/\ pc = <<4, 4, 4, 1, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+15: <In2(4) line 27, col 5 to line 30, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 3
+/\ y = <<0, 1, 2, 3, 0>>
+/\ pc = <<4, 4, 4, 2, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+16: <In3(4) line 33, col 5 to line 36, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 4
+/\ y = <<0, 1, 2, 3, 0>>
+/\ pc = <<4, 4, 4, 3, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+17: <In4(4) line 39, col 5 to line 42, col 23 of module Inc>
+/\ l = TRUE
+/\ x = 4
+/\ y = <<0, 1, 2, 3, 0>>
+/\ pc = <<4, 4, 4, 4, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+18: <In1(5) line 20, col 5 to line 24, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 4
+/\ y = <<0, 1, 2, 3, 0>>
+/\ pc = <<4, 4, 4, 4, 1>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+19: <In2(5) line 27, col 5 to line 30, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 4
+/\ y = <<0, 1, 2, 3, 4>>
+/\ pc = <<4, 4, 4, 4, 2>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+20: <In3(5) line 33, col 5 to line 36, col 24 of module Inc>
+/\ l = FALSE
+/\ x = 5
+/\ y = <<0, 1, 2, 3, 4>>
+/\ pc = <<4, 4, 4, 4, 3>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+21: <In4(5) line 39, col 5 to line 42, col 23 of module Inc>
+/\ l = TRUE
+/\ x = 5
+/\ y = <<0, 1, 2, 3, 4>>
+/\ pc = <<4, 4, 4, 4, 4>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2025-02-19 10:26:14
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 15, col 1 to line 15, col 4 of module Inc>: 3:3
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 15, col 23 to line 15, col 41 of module Inc: 3:15
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 15, col 31 to line 15, col 34 of module Inc: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 16, col 23 to line 16, col 41 of module Inc: 3:15
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 16, col 31 to line 16, col 34 of module Inc: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 18 to line 17, col 25 of module Inc: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<In1 line 19, col 1 to line 19, col 6 of module Inc>: 325:335
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 20, col 8 to line 20, col 16 of module Inc: 5765
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 20, col 8 to line 20, col 12 of module Inc: 5430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 21, col 8 to line 21, col 15 of module Inc: 1630
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 21, col 8 to line 21, col 8 of module Inc: 1295
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 21, col 12 to line 21, col 15 of module Inc: 1295
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 22, col 8 to line 22, col 17 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 8 to line 23, col 35 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 8 to line 24, col 24 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<In2 line 26, col 1 to line 26, col 6 of module Inc>: 325:335
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 27, col 8 to line 27, col 16 of module Inc: 5755
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 27, col 8 to line 27, col 12 of module Inc: 5420
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 28, col 8 to line 28, col 31 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 8 to line 29, col 35 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 8 to line 30, col 24 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<In3 line 32, col 1 to line 32, col 6 of module Inc>: 325:335
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 8 to line 33, col 16 of module Inc: 5745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 33, col 8 to line 33, col 12 of module Inc: 5410
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 8 to line 34, col 20 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 8 to line 35, col 35 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 8 to line 36, col 24 of module Inc: 335
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<In4 line 38, col 1 to line 38, col 6 of module Inc>: 206:216
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 8 to line 39, col 16 of module Inc: 5615
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 39, col 8 to line 39, col 12 of module Inc: 5400
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 8 to line 40, col 16 of module Inc: 215
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 40, col 13 to line 40, col 16 of module Inc: 216
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 8 to line 41, col 35 of module Inc: 215
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 41, col 14 to line 41, col 35 of module Inc: 216
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 8 to line 42, col 23 of module Inc: 215
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TypeOK line 13, col 1 to line 13, col 6 of module Inc>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 13, col 11 to line 13, col 85 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<Action line 51, col 12 to line 51, col 26 of module Inc>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 12 to line 51, col 26 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 51, col 12 to line 51, col 17 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 49, col 11 to line 49, col 35 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 49, col 27 to line 49, col 35 of module Inc: 2679
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 49, col 20 to line 49, col 23 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 51, col 22 to line 51, col 26 of module Inc: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<Action line 54, col 19 to line 54, col 26 of module Inc>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 19 to line 54, col 26 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 54, col 21 to line 54, col 26 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 49, col 11 to line 49, col 35 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 49, col 27 to line 49, col 35 of module Inc: 2679
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 49, col 20 to line 49, col 23 of module Inc: 1182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(21) at 2025-02-19 10:26:14: 1 182 states generated (48 244 s/min), 1 182 distinct states found (48 244 ds/min), 119 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+1182 states generated, 1182 distinct states found, 119 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 21.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 1481ms at (2025-02-19 10:26:14)
+@!@!@ENDMSG 2186 @!@!@
